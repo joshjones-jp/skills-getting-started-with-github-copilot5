@@ -114,7 +114,5 @@ All data is stored in memory, which means data will be reset when the server res
 
 テストを実行するには:
 
-```
-pip install pytest pytest-asyncio
-pytest tests/
-```
+    pip install -r ../requirements.txt
+    pytest ../tests/
